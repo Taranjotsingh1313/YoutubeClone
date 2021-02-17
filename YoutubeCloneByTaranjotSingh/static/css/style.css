@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{margin:0;padding: 0;box-sizing: border-box;}
+body{
+    overflow-x: hidden;
+}
+.Header .navbar{
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+}
+.Header .navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.Header .navbar #by{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Header .navbar .burger{
+    width: 40px;
+    margin-left: 20px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.Header .navbar .youlogo{
+    width:100px;
+    height: 50px;
+}
+.Header .navbar form{
+    width: 50%;
+}
+.Header .navbar form .search{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-left: 1px;
+    border-right: 1px;
+}
+.Header .navbar form .search input{
+    width: 100%;
+    height: 30px;
+    box-shadow: inset 0 1px 2px #e8e5e569;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 0px 25px;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+.Header .navbar form .search button{
+    width: 70px;
+    height: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    background: transparent;
+    padding: 2px 12px;
+}
+.Header .navbar form .search button svg{
+    background-color: #ccc;
+}
+.Header .navbar form .search button svg{
+    background-color: #f8f8f8;
+    opacity: 0.5;
+}
+.Header .navbar .logos{
+    display: flex;
+    width: 200px;
+    height:50px;
+    justify-content: space-between;
+}
+.Header .navbar .logos svg{
+    margin-right: 15px;
+    opacity: 0.6;
+    width: 31px;
+    height: 50px;
+}
+.Header .navbar .logos .imgyou{
+    height: 50px;
+}
+.Header .navbar .logos .imgyou img{
+    border-radius: 50%;
+    width: 30px;
+    height: 35px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.sidebar{
+    width: 15%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+    top: 40px;
+}
+.lists{
+    width: 100%;
+}
+.sidebar .lists li{
+    display: flex;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    color: black;
+    margin: 25px 0px;
+    opacity: 0.7;
+}
+.sidebar .lists li .svg1{
+    width: 50px;
+    height: 25px;
+    color: red;
+}
+.sidebar .lists li .svg1 svg{
+    width: 100%;
+    height:100%;
+}
+a{
+    text-decoration: none;
+}
+.tags{
+    width: 100%;
+    border-bottom: 2px solid #ccc;
+}
+.container{
+        position: absolute;
+    top: 75px;
+    left: 243px;
+    width: 85%;
+}
+.col-sm{
+    margin: 5px 5px;
+}
+.card-img-top{
+    height: 200px;
+    width:100%;
+}
